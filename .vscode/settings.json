@@ -1,7 +1,7 @@
 {
     "C_Cpp.default.includePath": [
-        "/home/earthbert/.graaljdk/include",
-        "/home/earthbert/.graaljdk/include/linux"
+        "/usr/lib/jvm/java-17-openjdk-amd64/include",
+        "/usr/lib/jvm/java-17-openjdk-amd64/include/linux"
     ],
     "files.associations": {
         "iostream": "cpp",
