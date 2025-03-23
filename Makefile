@@ -7,4 +7,4 @@ build: Test.cpp
 	$(CXX) $(CXX_FLAGS) $(INCLUDE) $^ $(LIB) -o Test
 
 run: build
-	./Test
+	LD_PRELOAD=${JAVA_HOME}/lib/server/libjvm.so ./Test

@@ -1,0 +1,97 @@
+Compiled from "Posit.scala"
+public class ro.upb.nrs.sl.Posit extends ro.upb.nrs.sl.Posit_B {
+  private final ro.upb.nrs.sl.TaperedFloatingPoint_B value;
+    descriptor: Lro/upb/nrs/sl/TaperedFloatingPoint_B;
+  private final int exponent_size;
+    descriptor: I
+  private final int size;
+    descriptor: I
+  private final ro.upb.nrs.sl.RoundingType rounding;
+    descriptor: Lro/upb/nrs/sl/RoundingType;
+  public static scala.Some<scala.Tuple4<ro.upb.nrs.sl.TaperedFloatingPoint_B, java.lang.Object, java.lang.Object, ro.upb.nrs.sl.RoundingType>> unapply(ro.upb.nrs.sl.Posit_B);
+    descriptor: (Lro/upb/nrs/sl/Posit_B;)Lscala/Some;
+
+  public static ro.upb.nrs.sl.Posit_B apply(java.lang.String, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (Ljava/lang/String;IILro/upb/nrs/sl/RoundingType;)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(float);
+    descriptor: (F)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(float, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (FIILro/upb/nrs/sl/RoundingType;)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(double);
+    descriptor: (D)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(long);
+    descriptor: (J)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(long, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (JIILro/upb/nrs/sl/RoundingType;)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(int);
+    descriptor: (I)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(int, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (IIILro/upb/nrs/sl/RoundingType;)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(double, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (DIILro/upb/nrs/sl/RoundingType;)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B apply(ro.upb.nrs.sl.TaperedFloatingPoint_B, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (Lro/upb/nrs/sl/TaperedFloatingPoint_B;IILro/upb/nrs/sl/RoundingType;)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.IntegerNumber_B maximum_exponent(int, int);
+    descriptor: (II)Lro/upb/nrs/sl/IntegerNumber_B;
+
+  public static ro.upb.nrs.sl.IntegerNumber_B minimum_exponent(int, int);
+    descriptor: (II)Lro/upb/nrs/sl/IntegerNumber_B;
+
+  public static ro.upb.nrs.sl.Posit_B fromDoubleToPosit(double);
+    descriptor: (D)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B fromFloatToPosit(float);
+    descriptor: (F)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B fromLongToPosit(long);
+    descriptor: (J)Lro/upb/nrs/sl/Posit_B;
+
+  public static ro.upb.nrs.sl.Posit_B fromIntToPosit(int);
+    descriptor: (I)Lro/upb/nrs/sl/Posit_B;
+
+  public static void set_size_rounding(int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (IILro/upb/nrs/sl/RoundingType;)V
+
+  public static void default_rounding_$eq(ro.upb.nrs.sl.RoundingType);
+    descriptor: (Lro/upb/nrs/sl/RoundingType;)V
+
+  public static ro.upb.nrs.sl.RoundingType default_rounding();
+    descriptor: ()Lro/upb/nrs/sl/RoundingType;
+
+  public static void default_size_$eq(int);
+    descriptor: (I)V
+
+  public static int default_size();
+    descriptor: ()I
+
+  public static void default_exponent_size_$eq(int);
+    descriptor: (I)V
+
+  public static int default_exponent_size();
+    descriptor: ()I
+
+  public ro.upb.nrs.sl.TaperedFloatingPoint_B value();
+    descriptor: ()Lro/upb/nrs/sl/TaperedFloatingPoint_B;
+
+  public int exponent_size();
+    descriptor: ()I
+
+  public int size();
+    descriptor: ()I
+
+  public ro.upb.nrs.sl.RoundingType rounding();
+    descriptor: ()Lro/upb/nrs/sl/RoundingType;
+
+  public ro.upb.nrs.sl.Posit(ro.upb.nrs.sl.TaperedFloatingPoint_B, int, int, ro.upb.nrs.sl.RoundingType);
+    descriptor: (Lro/upb/nrs/sl/TaperedFloatingPoint_B;IILro/upb/nrs/sl/RoundingType;)V
+}
